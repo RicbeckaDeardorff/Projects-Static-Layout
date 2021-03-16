@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    text-align: center;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    z-index: 12;
+    position: sticky;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+    position: sticky;
+}
+
+nav{
+    float: right;
+    line-height: 100px;
+    position: sticky;
+}
+
+nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif,;
+    font-size: 15px;
+    margin: 0 18px;
+
+}
+
+.banner-area{
+    width: 100%;
+    height: 930px;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    background-image:url(https://www.kastapp.co/images/gradient-violet-bg.jpg);
+    -webkit-background-size: cover;
+    background-position: center center;
+}
+
+.banner-area h2{
+    background-image: url(https://www.kastapp.co/images/laptop-large-p-800.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50%;
+    padding-top: 35%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke
+}
+
+.banner-area p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke
+}
+
+.banner-area a{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 500px;
+    background: #ddd;
+    height: 500px;
+}
+
+.content-area h3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.content-area p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    padding-top: 100px;
+}
